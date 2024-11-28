@@ -47,19 +47,19 @@ const BusinessCard = () => {
           <div className="flex flex-col ">
             <div className="flex items-center gap-2  text-stone-300 p-2 rounded-xl">
               <FaPhone className="text-teal-200" />
-              <p className="text-xs sm:text-sm">+1 234 567 890</p>
+              <p className="text-xs sm:text-sm">+91 90614 32814</p>
             </div>
             <div className="flex items-center gap-2  text-stone-300 p-2 rounded-xl">
               <FaLocationDot className="text-teal-200" />
-              <p className="text-xs sm:text-sm">123 Main St, Anytown USA</p>
+              <p className="text-xs sm:text-sm">Vilame 1st Floor, Laham Commercial Complex, <br /> Pallinada, Kazhakkoottam, Kerala 69558</p>
             </div>
             <div className="flex items-center gap-2  text-stone-300 p-2 rounded-xl">
               <FaGlobe className="text-teal-200" />
-              <p className="text-xs sm:text-sm">www.example.com</p>
+              <a href="sangig@tltechnologies.net" target="_blank" className="text-xs sm:text-sm">sangig@tltechnologies.net</a>
             </div>
             <div className="flex items-center gap-2  text-stone-300 p-2 rounded-xl">
               <MdEmail className="text-teal-200" />
-              <p className="text-xs sm:text-sm">HcH2k@example.com</p>
+              <a href="https://tltechnologies.net" target="_blank" className="text-xs sm:text-sm">www.tltechnologies.net</a>
             </div>
           </div>
 
@@ -67,16 +67,17 @@ const BusinessCard = () => {
           <div className="flex flex-col gap-2 items-end w-full sm:w-auto">
           <button
   className="flex items-center justify-between gap-2 bg-black/20 text-green-400 border border-transparent hover:border-stone-50 rounded-xl p-2 transition-all duration-300 ease-in-out"
-  onClick={() =>
+  onClick={() => {
     window.open(
-      "https://api.whatsapp.com/send/?text=Here+is+TL+Technologies+Digital+Business+Card.+Save+it+for+quick+access%3A+https%3A%2F%2Fv-card-0n4e.onrender.com&type=custom_url&app_absent=0",
+      "https://api.whatsapp.com/send/?text=Here+is+TL+Technologies+Digital+Business+Card.+Save+it+for+quick+access%3A+https%3A%2F%2Ftl-vcard-web.vercel.app%2F&type=custom_url&app_absent=0",
       "_blank"
-    )
-  }
+    );
+  }}
 >
   <span className="text-stone-200 text-xs sm:text-sm">Share</span>
   <FaShareAlt className="text-base" />
 </button>
+
 
 <button
   className="flex items-center justify-between gap-2 bg-black/20 text-blue-400 border border-transparent hover:border-stone-50 rounded-xl p-2 transition-all duration-300 ease-in-out"
