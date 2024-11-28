@@ -51,7 +51,7 @@ const BusinessCard = () => {
             </div>
             <div className="flex items-center gap-2  text-stone-300 p-2 rounded-xl">
               <FaLocationDot className="text-teal-200" />
-              <p className="text-xs sm:text-sm">Vilame 1st Floor, Laham Commercial Complex, <br /> Pallinada, Kazhakkoottam, Kerala 69558</p>
+              <p className="text-xs sm:text-sm">  Kazhakkoottam, Kerala 69558</p>
             </div>
             <div className="flex items-center gap-2  text-stone-300 p-2 rounded-xl">
               <FaGlobe className="text-teal-200" />
