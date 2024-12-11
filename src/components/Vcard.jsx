@@ -6,26 +6,16 @@ import { FaGlobe } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaShareAlt } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
+import { GridPatternLinearGradient } from "./demo";
 
 const BusinessCard = () => {
   return (
-    <div
-      className="flex items-center justify-center min-h-screen bg-no-repeat bg-center bg-cover font-mono bg-black relative"
-      style={{
-        backgroundImage:
-          "url('https://img.freepik.com/free-vector/digital-technology-background-with-abstract-wave-border_53876-117508.jpg?t=st=1732622332~exp=1732625932~hmac=a9c03c0b1272532d8e8e5948f92aa5f8ef46be6b8946f9b5860edebd4a11d3a0&w=826')",
-      }}
-    >
-      <div className="absolute inset-0 bg-black/10 z-10"></div>
+   
       <div
-        className="w-[90%] sm:w-[500px] max-w-[500px] bg-cover bg-center border-stone-300 border h-fit rounded-3xl shadow-lg overflow-hidden p-4 relative"
-        style={{
-          backgroundImage:
-            "url('https://www.ul.com/sites/default/files/styles/hero_boxed_width/public/2020-06/GettyImages-692023989.jpg?itok=ezibfSE6')",
-        }}
+        className="w-[90%] sm:w-[500px] max-w-[500px] bg-cover bg-center  h-fit rounded-3xl shadow-lg overflow-hidden p-4 relative"
+       
       >
         {/* Background Overlay */}
-        <div className="absolute inset-0 backdrop-blur-xl bg-black/25 z-10"></div>
 
         {/* Logo and Header */}
         <div className="relative z-20 flex flex-wrap items-center space-x-4">
@@ -110,7 +100,7 @@ END:VCARD`;
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
